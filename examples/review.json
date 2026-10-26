@@ -1,0 +1,19 @@
+{
+  "documentId": "guide-draft",
+  "title": "Community guide draft",
+  "sourceSha256": "71f6b00f81878241caa5e058055c0cd52942f8be63481fb6fa3020e007ec8d6d",
+  "spans": [
+    {
+      "id": "contact",
+      "start": 31,
+      "end": 49,
+      "quote": "robin@example.test"
+    },
+    {
+      "id": "meeting",
+      "start": 65,
+      "end": 81,
+      "quote": "the blue door 🟦"
+    }
+  ]
+}
