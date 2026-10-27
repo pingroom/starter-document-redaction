@@ -72,10 +72,12 @@ npm run connect
 npm run inspect
 ```
 
-Install [PingRoom](https://pingroom.io/i), approve the pairing link, and choose a
-**standard private room** containing the reviewer. Grant `pingroom:rooms:read`,
-`pingroom:questions:ask`, and access to that room. Normal permissions and quotas
-apply. The reviewer may be the connecting account or another room member.
+Install [PingRoom](https://pingroom.io/i), open the pairing link, and verify the
+robot profile. Review the server-defined capabilities shown on the approval
+screen, then claim the robot and delegate access to a **standard private room**
+containing the reviewer. See the [pairing guide](https://pingroom.io/documents/agent-access).
+Normal permissions and quotas apply. The reviewer may be the connecting account
+or another room member.
 
 `inspect` lists member UUIDs and lookup names. Verify the intended person in the
 app, then put their exact UUID and a local label in `config.json`. Names alone do
